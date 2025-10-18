@@ -1,21 +1,14 @@
-# 照片地图 - 基于地理位置的照片浏览工具
+# 照片地图 - 基于地理位置的本地照片浏览工具
 
 照片地图是一个能够根据照片的地理位置信息（经纬度）在地图上展示照片的工具。通过这个工具，您可以直观地在地图上查看照片拍摄位置，并按拍摄地点浏览照片集。
+## 使用步骤
+-添加照片文件夹进行照片处理
+![PixPin_2025-10-18_19-48-07](https://github.com/user-attachments/assets/84e70c19-47da-439c-90d0-dffdce34d265)
 
-## 支持作者
+-默认打开生成的html文件，使用浏览器查看
+![PixPin_2025-10-18_19-47-13](https://github.com/user-attachments/assets/0c9f04a2-a6ec-45bd-84e5-48651e24acd3)
 
-如果您觉得这个工具对您有所帮助，欢迎通过以下方式支持作者继续开发和维护：
-
-### 捐款方式
-
-- **微信支付**
-- **支付宝**
-
-您的每一笔捐款都将用于：
-- 开发新功能和改进现有功能
-- 提高应用性能和用户体验
-- 功能维护和技术支持
-- 购买更多咖啡，让开发者熬夜加班 ☕
+![PixPin_2025-10-18_19-47-36](https://github.com/user-attachments/assets/75074c23-1f8e-4b60-bc2b-6a723340159a)
 
 ## 功能介绍
 
@@ -72,3 +65,24 @@
 开发人员：dong, yi, flow, qwen, gemini, grok
 
 如有问题反馈或建议，欢迎发送邮件至 849371874@qq.com
+
+## 支持作者
+
+如果您觉得这个工具对您有所帮助，欢迎通过以下方式支持作者继续开发和维护：
+
+### 捐款方式
+
+- **微信支付**
+<img width="459" height="503" alt="wechat_qrcode" src="https://github.com/user-attachments/assets/d39baca3-5624-4a83-a78a-68ea6f68156f" />
+
+  
+- **支付宝支付**
+
+
+<img width="501" height="537" alt="alipay_qrcode" src="https://github.com/user-attachments/assets/a9664e08-dd4b-4a09-8b1d-30ce8a82cb38" />
+
+您的每一笔捐款都将用于：
+- 开发新功能和改进现有功能
+- 提高应用性能和用户体验
+- 功能维护和技术支持
+- 购买更多咖啡，让开发者熬夜加班 ☕
