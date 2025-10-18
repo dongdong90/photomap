@@ -1,0 +1,70 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+block_cipher = None
+
+a = Analysis(
+    ['integrated_main.py'],
+    pathex=[],
+    binaries=[],
+    datas=[
+        ('app_icon.ico', '.'),
+        ('wechat_qrcode.png', '.'),
+        ('alipay_qrcode.png', '.'),
+        ('程序图标.jpg', '.'),
+        ('主界面.jpg', '.'),
+    ],
+    hiddenimports=[
+        'PIL',
+        'PIL.Image',
+        'PIL.ImageTk',
+        'PIL.ExifTags',
+        'exifread',
+        'piexif',
+        'pillow_heif',
+        'jinja2',
+        'tkinter',
+        'tkinter.ttk',
+        'concurrent.futures',
+        'webbrowser',
+        'logging',
+        'datetime',
+        'json',
+        'threading',
+        'time',
+        'os',
+        'math',
+        'base64',
+        'sys',
+        'pkg_resources'
+    ],
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    noarchive=False,
+    optimize=0,
+)
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    [],
+    name='照片地图',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    runtime_tmpdir=None,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+    icon='app_icon.ico',
+)
